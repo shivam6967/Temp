@@ -63,7 +63,7 @@ The Innovation Incubation and Entrepreneurship Cell (IIEC) at Walchand College o
 
           <a href="#about">
             <MagicButton
-              title="Apply for Idea Validation Camp"
+              title="Get Started"
               icon={<FaLocationArrow />}
               position="right"
             />

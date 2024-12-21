@@ -1,8 +1,11 @@
 export const navItems = [
+  { name: "Home", link: "#about" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+  { name: "Team", link: "#contact" },
+  { name: "Idea Validation Camp", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -205,28 +208,28 @@ export const workExperience = [
     title: "Video Editing & Content Creation",
     desc: "Our creative team brings your brand to life with professional video editing, animation, and content creation. We help businesses engage their audience through high-quality, impactful videos that tell a compelling story.",
     className: "md:col-span-2",
-    thumbnail: "/exp5.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 6,
     title: "Marketing Strategy",
     desc: "We design targeted marketing strategies to boost brand awareness and generate leads. Our services cover digital marketing, SEO, social media management, and performance tracking, helping businesses grow their presence and engage their audience.",
     className: "md:col-span-2",
-    thumbnail: "/exp6.svg",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 7,
     title: "Business Development Manager",
     desc: "Our business development experts work closely with clients to identify opportunities for growth, partnerships, and new market penetration. We offer strategic insights, negotiation skills, and a network of industry contacts to help businesses expand and thrive.",
     className: "md:col-span-2",
-    thumbnail: "/exp7.svg",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 8,
     title: "UI/UX Design",
     desc: "User Interface (UI) and User Experience (UX) design is at the heart of our design philosophy. We create intuitive, aesthetically pleasing designs that focus on providing the best user experience across all platforms.",
     className: "md:col-span-2",
-    thumbnail: "/exp8.svg",
+    thumbnail: "/exp4.svg",
   },
  
 ];

@@ -23,8 +23,9 @@ const Home = () => {
         <Clients />
         <Experience />
         <Approach />
-        <Team/>
+        {/* <Team/> */}
         <Footer />
+       
       </div>
     </main>
   );
