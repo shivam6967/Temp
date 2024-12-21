@@ -22,7 +22,7 @@ const Footer = () => {
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
            
-          Take your digital presence to new heights! Get in touch with us today, and let’s discuss how we can help you reach your objectives.
+          A platform dedicated to nurturing Innovation, fostering Entrepreneurship, and turning dreams into success stories. With expert guidance and a collaborative ecosystem, we empower you to bring your vision to life and make a difference.
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
