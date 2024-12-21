@@ -61,7 +61,7 @@ const Hero = () => {
 The Innovation Incubation and Entrepreneurship Cell (IIEC) at Walchand College of Engineering fosters creativity and entrepreneurship, empowering innovators with resources and guidance to transform ideas into successful ventures.
           </p>
 
-          <a href="#about">
+          <a href="mailto:shivam.mathapati@walchandsangli.ac.in">
             <MagicButton
               title="Get Started"
               icon={<FaLocationArrow />}

@@ -24,7 +24,7 @@ const Footer = () => {
            
           A platform dedicated to nurturing Innovation, fostering Entrepreneurship, and turning dreams into success stories. With expert guidance and a collaborative ecosystem, we empower you to bring your vision to life and make a difference.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:shivam.mathapati@walchandsangli.ac.in">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
