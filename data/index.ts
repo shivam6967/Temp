@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
-  { name: "Team", link: "#team" },
+  { name: "Team", link: "https://iiecellposts.vercel.app/" },
   { name: "Idea Validation", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Fostering innovation, incubation, and entrepreneurship at Walchand College of Engineering.",
+    title:
+      "Fostering innovation, incubation, and entrepreneurship at Walchand College of Engineering.",
     description: "Visionary Platform ",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -137,7 +138,6 @@ export const testimonials = [
   },
 ];
 
-
 export const companies = [
   {
     id: 1,
@@ -228,9 +228,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
- 
 ];
-
 
 export const socialMedia = [
   {
