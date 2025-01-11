@@ -57,8 +57,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          <b>Nurturing Innovations, Creating Enterprises </b>
-The Innovation Incubation and Entrepreneurship Cell (IIEC) at Walchand College of Engineering fosters creativity and entrepreneurship, empowering innovators with resources and guidance to transform ideas into successful ventures.
+            <b>Nurturing Innovations, Creating Enterprises </b>
+            The Innovation Incubation and Entrepreneurship Cell (IIEC) at
+            Walchand College of Engineering fosters creativity and
+            entrepreneurship, empowering innovators with resources and guidance
+            to transform ideas into successful ventures.
           </p>
 
           <a href="mailto:shivam.mathapati@walchandsangli.ac.in">

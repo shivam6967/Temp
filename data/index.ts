@@ -3,6 +3,10 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Team", link: "https://iiecellposts.vercel.app/" },
   { name: "Idea Validation", link: "#contact" },
+  { name: "Events", link: "#contact" },
+  { name: "Alumini", link: "#contact" },
+  { name: "Skill Developmet", link: "#contact" },
+  { name: "Contact Us", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -73,35 +77,42 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Expert Talk on How to start a Startup",
+    des: "Legal and ethical steps to Start the Startup & Hands-on experience and networking with tech leaders",
+    speaker: "Speaker : Mr. Prataprao Pawar",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
+    date: "14th February 2024",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "MAHA60 CORNELL ACCELERATOR PROGRAM",
+    des: "A Joint Initiative by Development of Industries, Govt. of Maharashtra and Cornell University, New York, USA, In Collaboration with WCE Sangli",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
+    date: "23rd January 2024",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Expert Talk on Why Entrepreneurship? ",
+    des: "Session with industry leaders and successful entrepreneurs of entrepreneurship in today's world",
+    speaker:
+      "Speaker : Mr. Chakor Gandhi Member, Administrative Council, WCE Sangli",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
+    date: "4th November 2023",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Podcast : Conversations with Alumni Entrepreneurs",
+    des: "Get ready to be inspired by our accomplished alumni who have embarked on successful entrepreneurial journeys",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+    date: "Comming Soon",
   },
 ];
 
