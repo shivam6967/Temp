@@ -1,7 +1,9 @@
 import React from "react";
-
-import { workExperience } from "@/data";
+import { FaLocationArrow } from "react-icons/fa6";
+import { alumini } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import MagicButton from "./MagicButton";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
@@ -12,7 +14,7 @@ const Experience = () => {
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+        {alumini.map((card) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
@@ -40,7 +42,11 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start text-xl md:text-lg">{card.year}</p>
+                <p className="text-start text-xl md:text-xl font-bold">
+                  {card.position}
+                </p>
+                <p className="text-start text-white-100 text-lg mt-3">
                   {card.desc}
                 </p>
               </div>

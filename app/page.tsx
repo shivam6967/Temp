@@ -11,6 +11,7 @@ const Home = () => {
       <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/events" element={<RecentProjects />} />
+        <Route path="/alumini" element={<Experience />} />
       </Routes>
     </Router>
   );
